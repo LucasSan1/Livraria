@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+
+.header {
+    width: 100%;
+    height: 13vh;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    background-color: #064452;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
