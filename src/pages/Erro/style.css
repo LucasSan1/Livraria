@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.erro {
+    font-family: "Roboto" , cursive;
+    font-size: 20px;
+    background-color: #EEEEEE;
+    height: 70vh;
+    width: 90%;
+    margin: 25px 0px 0px 45px;
+    padding: 20px;
+}
+
+.erro p {
+    padding: 15px;
+}
+
+.erro4 {
+    font-size: 40px;
+}
+
+.erro img {
+    width: 300px;
+    position: relative;
+    left: 70vh;
+    top: 20px;
+}

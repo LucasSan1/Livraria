@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+    background-color: #eeeeee;
+    padding: 10px 5px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    text-align: center;
+}
