@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<h1 text align="center"> 📚 Projeto SóRaiva</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Objetivo</h2>
+Esse projeto foi uma proposta de sprint realizada em sala de aula, onde o objetivo era criar um site utilizando a biblioteca React consumindo uma API.
 
-## Available Scripts
 
-In the project directory, you can run:
+![image](https://github.com/LucasSan1/Livraria/assets/131712297/833f9e6a-0849-4d53-bbfb-8fb799ad41b4)
 
-### `npm start`
+<h3>Funcionalidades</h3>
+<li>Home;</li>
+<li>Página de informações sobre o livro com ano de lançamento, autor, número de páginas e descrição;</li>
+<li>Página de erro</li>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Sobre a API</h2>
+A API utilizada foi a <a href="https://openlibrary.org/dev/docs/api/books">OpenLibraryAPI</a>, uma API pública que fornece informações sobre livros dentro do site <a href="https://openlibrary.org">OpenLibrary</a>. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+  <li>Essa é a URL padrão para acessar um livro no site base:</li>
+  <code>https://openlibrary.org/works/OL21177W/Wuthering_Heights</code>
 
-### `npm run build`
+  <li>Para acessar as informações dos livros (API generic) em formato de arquivo, é só escrever '.json' ou 'yml' logo após o ID do livro na url. </li>
+  <code>https://openlibrary.org/works/OL21177W.json</code>
+  
+  <li>Para acessar as capas, que estão em outra API, deve-se estabelecer o tamanho da imagem colocando o sufixo 'S-jpg'(pequena), 'M-jpg'(média) ou 'L-jpg'(grande), logo depois de chamar o atributo "covers" na requisição.
+  </li>
+  <code>const capa =  `https://covers.openlibrary.org/b/id/${livro.covers}-M.jpg`;</code>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Tecnologias utilizadas</h2>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo">
+<img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" alt="logo">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="logo">
