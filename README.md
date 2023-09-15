@@ -4,12 +4,18 @@
 Esse projeto foi uma proposta de sprint realizada em sala de aula, onde o objetivo era criar um site utilizando a biblioteca React consumindo uma API.
 
 
-![image](https://github.com/LucasSan1/Livraria/assets/131712297/833f9e6a-0849-4d53-bbfb-8fb799ad41b4)
-
 <h3>Funcionalidades</h3>
 <li>Home;</li>
+
+![image](https://github.com/LucasSan1/Livraria/assets/131712297/833f9e6a-0849-4d53-bbfb-8fb799ad41b4)
+
 <li>Página de informações sobre o livro com ano de lançamento, autor, número de páginas e descrição;</li>
+
+![image](https://github.com/LucasSan1/Livraria/assets/131712297/e75e3f33-fd74-41d0-93a6-02561e43ac27)
+
 <li>Página de erro</li>
+
+![image](https://github.com/LucasSan1/Livraria/assets/131712297/dbaf57d5-76fc-47d9-b928-c3bd0825fcbe)
 
 
 <h2>Sobre a API</h2>
