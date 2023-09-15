@@ -9,6 +9,10 @@ Esse projeto foi uma proposta de sprint realizada em sala de aula, onde o objeti
 
 ![image](https://github.com/LucasSan1/Livraria/assets/131712297/833f9e6a-0849-4d53-bbfb-8fb799ad41b4)
 
+
+![image](https://github.com/LucasSan1/Livraria/assets/131712297/8803ad37-bd4d-444e-8aa4-9c9e4413ff2f)
+
+
 <li>Página de informações sobre o livro com ano de lançamento, autor, número de páginas e descrição;</li>
 
 ![image](https://github.com/LucasSan1/Livraria/assets/131712297/e75e3f33-fd74-41d0-93a6-02561e43ac27)
@@ -23,6 +27,7 @@ A API utilizada foi a <a href="https://openlibrary.org/dev/docs/api/books">OpenL
 
 
 <ul>
+  <li>Utilizamos o AXIOS para criar a requisição da API.</li>
   <li>Essa é a URL padrão para acessar um livro no site base:</li>
   <code>https://openlibrary.org/works/OL21177W/Wuthering_Heights</code>
 
