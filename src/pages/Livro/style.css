@@ -50,7 +50,7 @@
     }
     .conteudo {
        float: left;
-       margin: 0px 30px;
+       margin: 0px 40px;
     }
 
     .conteudo h1 {
@@ -63,6 +63,6 @@
 
     .descricao {
         width:290px;
-        margin: 0px 10px;
+        margin: 0px 15px;
     }
 }
