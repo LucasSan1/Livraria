@@ -19,6 +19,6 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         column-gap: none;
         position: relative;
-        left: -50px;
+        left: -20px;
     }
 }
