@@ -28,16 +28,12 @@ A API utilizada foi a <a href="https://openlibrary.org/dev/docs/api/books">OpenL
 
 <ul>
   <li>Utilizamos o AXIOS para criar a requisição da API.</li>
-  <code>
-  import axios from "axios";
-
+  <code>import axios from "axios";
 // Indica a url base que devera ser incrementada depois
 const api = axios.create({
     baseURL: 'https://openlibrary.org'
 })
-
-export default api;
-</code>
+export default api;</code>
   
   <li>Essa é a URL padrão para acessar um livro no site base:</li>
   <code>https://openlibrary.org/works/OL21177W/Wuthering_Heights</code>
