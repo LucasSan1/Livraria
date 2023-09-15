@@ -1,0 +1,24 @@
+
+
+.containerH{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.item{
+    margin: 30px 20px;
+}
+
+@media  (340px <= width <= 500px) {
+    .containerH{
+        grid-template-columns: 200px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: none;
+        position: relative;
+        left: -70px;
+    }
+}
